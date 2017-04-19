@@ -15,7 +15,7 @@
     <body>
         <?php include 'header.php'; ?>
         <main>
-            <div id = "about-us">
+            <section id = "about-us">
                 <h2>ABOUT US</h2>
                 <blockquote cite="https://www.knowroaming.com">
                     <div>
@@ -39,8 +39,8 @@
                         you can monitor what you spend and add money to your account as needed.
                     </div>
                 </blockquote>
-            </div>
-            <div id = "apply-now">
+            </section>
+            <section id = "apply-now">
                 <h2>APPLY NOW</h2>
                 <div id = "apply-info">
                     <form id = "applyForm" action = "form.php" method = "POST">
@@ -82,8 +82,8 @@
                         <p></p>
                     </div>
                 </div>
-            </div>
-            <div id = "contact-us">
+            </section>
+            <section id = "contact-us">
                 <h2>CONTACT US</h2>
                 <div class = "contact-info user-contact">
                     <form action =<?php echo TMP_ROOT, "pages/home/form.php" ?> id = "contactForm" method = "POST">
@@ -125,7 +125,7 @@
                         <span>jobs@knowroaming.com</span>
                     </div>
                 </div>
-            </div>
+            </section>
             <div id = "form-modal">
                 <p></p>
                 <div id = "close-modal">Got It</div>

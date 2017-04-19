@@ -15,6 +15,10 @@ header h1 {
     color: white;
 }
 
+i {
+    color: #1A4869;
+}
+
 #about-us {
     
     display: flex;
@@ -69,9 +73,7 @@ main {
 #apply-now .user-info {
     text-align: left;
 }
-#apply-now input["type=button"] {
-    background-color:blue;
-}
+
 #contact-us {
     width: 100%;
     text-align: center;
@@ -120,12 +122,13 @@ main {
     margin-left: 19%;
 }
 .user-contact .submit input {
-    margin: 0;
+    margin-left: 0;
     margin-right: 19%;
 }
 .company-contact {
     margin-left: 5%;
     width: 20%;
+    min-width: 300px;
     position: relative;
     bottom: 120px;
 }
@@ -136,7 +139,7 @@ main {
 }
 .company-info span {
     margin-left: 15%;
-    width: 400px;
+    width: 100%;
 }
 #form-modal {
     height: 250px;
@@ -175,4 +178,14 @@ main {
 #apply-form-message,#contact-form-message {
     position: relative;
     bottom: 200px;
+}
+
+@media only screen and (max-width: 760px) {
+    .company-contact {
+        margin: 10% 0 10% 20%;
+        width: 100%;
+        position: relative;
+        bottom: 0px;
+        display: block;
+    }
 }

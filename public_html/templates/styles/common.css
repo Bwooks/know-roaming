@@ -17,9 +17,17 @@ nav {
     width:100%;
     z-index: 10;
     top: 0px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 nav a {
     line-height:66px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1A4869;
+    font-size: 21px;
 }
 nav a img{
     margin-top:8px;
