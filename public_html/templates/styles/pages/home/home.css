@@ -1,0 +1,178 @@
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: white;
+}
+
+#about-us {
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    color:black;
+}
+#about-us h2 {
+    margin-top: 5%;
+    text-align: center;
+}
+blockquote {
+    width: 35%;
+    font-size:17px;
+    text-align: justify;
+    line-height:30px;
+    display:block;
+    position: relative;
+}
+#hidden-div {
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    opacity: 0 ;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+#apply-now {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #559CC0;
+    margin: 5%;
+    color: white;
+    padding: 4%;
+    background: url('../../../assets/images/skyline.jpg') no-repeat scroll right center #549CBF;
+    background-position: 100% 50%
+}
+#apply-now h2 {
+    text-align: center;
+    color: white;
+}
+#apply-now .user-info {
+    text-align: left;
+}
+#apply-now input["type=button"] {
+    background-color:blue;
+}
+#contact-us {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 6% 0;
+}
+#contact-us h2 {
+    text-align: center;
+}
+.contact-info {
+    display: inline-block;
+}
+.user-info {
+    margin: 20px;
+    width: 100%;
+}
+.user-info label {
+    display: inline-block;
+    width: 50px;
+    margin-right: 5%;
+    text-align:right;
+}
+.user-info input,
+.user-info textarea,
+.user-info select{
+    height: 20px;
+    border-radius: 4%;
+    border: 1px solid grey;
+    padding: 2% 2.5%;
+    width: 280px;
+    display: inline-block;
+}
+.user-info select {
+    height: 40px;
+}
+.user-info textarea{
+    height: 70px;
+    font-family: Helvetica;
+}
+.message-text label{
+    position:relative;
+    bottom:70px;
+}
+.user-info.submit input{
+    height: 40px;
+    width: 150px;
+    margin-left: 19%;
+}
+.user-contact .submit input {
+    margin: 0;
+    margin-right: 19%;
+}
+.company-contact {
+    margin-left: 5%;
+    width: 20%;
+    position: relative;
+    bottom: 120px;
+}
+
+.company-info {
+    height: 60px;
+    text-align: left;
+}
+.company-info span {
+    margin-left: 15%;
+    width: 400px;
+}
+#form-modal {
+    height: 250px;
+    width: 450px;
+    position: fixed;
+    top: 25%;
+    border-radius: 1%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A4869;
+    border-bottom: 100px solid #499DC6;
+    color: white;
+    z-index: -1;
+}
+#form-modal p {
+    padding: 12%;
+    text-align: justify;
+}
+#form-modal #close-modal {
+    position: absolute;
+    bottom: -60px;
+    height: 30px;
+    width: 100px;
+    background-color: #F5F5F5;
+    border-radius: 4%;
+    color: #555965;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #F5F5F5;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#apply-form-message,#contact-form-message {
+    position: relative;
+    bottom: 200px;
+}
